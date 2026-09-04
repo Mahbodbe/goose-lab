@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Big captures — keep the repo light; only small samples stay tracked
+*.pcap
+*.pcapng
+!frames/sample.pcap
+
+# Generated outputs (rebuilt from code)
+*.log
+analysis/*.png
+analysis/*.pdf
+!analysis/.gitkeep
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
